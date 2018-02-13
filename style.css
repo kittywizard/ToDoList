@@ -1,0 +1,60 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1.75em;
+
+  background-color: rgba(94, 235, 167, 0.35);
+  border-radius: 10px;
+
+  font-family: 'Cherry Swash', sans-serif;
+  font-size: 1.5em;
+  color: rgb(52, 59, 62);
+  text-align: center;
+}
+
+#header {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#date {
+  font-size: .75em;
+  font-weight: 400;
+}
+
+#addToList{
+  background-color: rgba(125, 196, 155, .50);
+  font-size: .75em;
+  border: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding: 2px;
+}
+
+#submit {
+  background-color: rgba(125, 196, 155, .50);
+  font-size: .75em;
+  border: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style: square;
+}
+
+ul li {
+  padding-bottom: 2em;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hover {
+  font-weight: 900;
+}
+
+.done {
+  text-decoration: line-through;
+  color:rgba(147, 152, 144, 0.45);
+}
