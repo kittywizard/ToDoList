@@ -22,11 +22,10 @@ button.addEventListener("click", function(textInput) {
   var list = document.getElementById("list");
   // Insert <li> before the first child of <ul>
   list.insertBefore(newListItem, list.childNodes[0]);
+
   //run this to force it to loop through all List
   //there's gotta be a better way?
   updateLIs();
-
-
 });
 
 //loop through all LIs to determine cross out, or hover
@@ -46,8 +45,8 @@ function updateLIs() {
 
     //also want to make a way to delete item once crossed off
     items[i].addEventListener("click", function() {
-      this.classList.toggle("done");
-      console.log("I am clicking???"); //BUG getting two clicks per click on the previous entry
+      this.classList.add("done");
+      //add an ability to delete
     });
 
   }
